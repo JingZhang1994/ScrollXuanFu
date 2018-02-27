@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  滚动悬浮
+//
+//  Created by apple on 2018/2/27.
+//  Copyright © 2018年 zj. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define WeakSelf __weak typeof(self) weakSelf = self;
+#define Width [UIScreen mainScreen].bounds.size.width
+#define Height [UIScreen mainScreen].bounds.size.height
+#endif /* PrefixHeader_pch */
