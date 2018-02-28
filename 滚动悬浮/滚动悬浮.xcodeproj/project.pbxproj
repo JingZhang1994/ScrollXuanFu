@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181A3A6D204635FA00AD9208 /* ZJContentTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A3A6C204635FA00AD9208 /* ZJContentTableView.m */; };
+		181A3A702046373500AD9208 /* ZJPersonalHomePageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A3A6F2046373500AD9208 /* ZJPersonalHomePageTitleView.m */; };
+		181A3A732046379600AD9208 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A3A722046379600AD9208 /* UIViewExt.m */; };
 		181A49A72045505E004C8D72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A49A62045505E004C8D72 /* AppDelegate.m */; };
 		181A49AA2045505E004C8D72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A49A92045505E004C8D72 /* ViewController.m */; };
 		181A49AD2045505E004C8D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181A49AB2045505E004C8D72 /* Main.storyboard */; };
@@ -14,10 +17,18 @@
 		181A49B22045505E004C8D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181A49B02045505E004C8D72 /* LaunchScreen.storyboard */; };
 		181A49B52045505E004C8D72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A49B42045505E004C8D72 /* main.m */; };
 		181A49F920456127004C8D72 /* ZJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A49F820456127004C8D72 /* ZJViewController.m */; };
+		181A49FD20456308004C8D72 /* ZJPersonalHomePageHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A49FC20456308004C8D72 /* ZJPersonalHomePageHeaderView.m */; };
+		181A4A002045647E004C8D72 /* ZJContentScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A49FF2045647E004C8D72 /* ZJContentScrollView.m */; };
 		BB3DC7FBAAD6F0B8A2A19804 /* libPods-滚动悬浮.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9419862BEB6E0EA46FBFC656 /* libPods-滚动悬浮.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181A3A6B204635FA00AD9208 /* ZJContentTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJContentTableView.h; sourceTree = "<group>"; };
+		181A3A6C204635FA00AD9208 /* ZJContentTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJContentTableView.m; sourceTree = "<group>"; };
+		181A3A6E2046373500AD9208 /* ZJPersonalHomePageTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPersonalHomePageTitleView.h; sourceTree = "<group>"; };
+		181A3A6F2046373500AD9208 /* ZJPersonalHomePageTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPersonalHomePageTitleView.m; sourceTree = "<group>"; };
+		181A3A712046379600AD9208 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		181A3A722046379600AD9208 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		181A49A22045505E004C8D72 /* 滚动悬浮.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "滚动悬浮.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		181A49A52045505E004C8D72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		181A49A62045505E004C8D72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +42,10 @@
 		181A49F620455F28004C8D72 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		181A49F720456127004C8D72 /* ZJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJViewController.h; sourceTree = "<group>"; };
 		181A49F820456127004C8D72 /* ZJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJViewController.m; sourceTree = "<group>"; };
+		181A49FB20456308004C8D72 /* ZJPersonalHomePageHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJPersonalHomePageHeaderView.h; sourceTree = "<group>"; };
+		181A49FC20456308004C8D72 /* ZJPersonalHomePageHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPersonalHomePageHeaderView.m; sourceTree = "<group>"; };
+		181A49FE2045647E004C8D72 /* ZJContentScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJContentScrollView.h; sourceTree = "<group>"; };
+		181A49FF2045647E004C8D72 /* ZJContentScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJContentScrollView.m; sourceTree = "<group>"; };
 		184F010405C3DE003ED6E73D /* Pods-滚动悬浮.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-滚动悬浮.release.xcconfig"; path = "Pods/Target Support Files/Pods-滚动悬浮/Pods-滚动悬浮.release.xcconfig"; sourceTree = "<group>"; };
 		9419862BEB6E0EA46FBFC656 /* libPods-滚动悬浮.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-滚动悬浮.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9FDC6132565FAD9F19E1592 /* Pods-滚动悬浮.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-滚动悬浮.debug.xcconfig"; path = "Pods/Target Support Files/Pods-滚动悬浮/Pods-滚动悬浮.debug.xcconfig"; sourceTree = "<group>"; };
@@ -69,6 +84,9 @@
 		181A49A42045505E004C8D72 /* 滚动悬浮 */ = {
 			isa = PBXGroup;
 			children = (
+				181A3A712046379600AD9208 /* UIViewExt.h */,
+				181A3A722046379600AD9208 /* UIViewExt.m */,
+				181A49FA204562E2004C8D72 /* Views */,
 				181A49A52045505E004C8D72 /* AppDelegate.h */,
 				181A49A62045505E004C8D72 /* AppDelegate.m */,
 				181A49A82045505E004C8D72 /* ViewController.h */,
@@ -83,6 +101,21 @@
 				181A49F620455F28004C8D72 /* PrefixHeader.pch */,
 			);
 			path = "滚动悬浮";
+			sourceTree = "<group>";
+		};
+		181A49FA204562E2004C8D72 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				181A49FB20456308004C8D72 /* ZJPersonalHomePageHeaderView.h */,
+				181A49FC20456308004C8D72 /* ZJPersonalHomePageHeaderView.m */,
+				181A49FE2045647E004C8D72 /* ZJContentScrollView.h */,
+				181A49FF2045647E004C8D72 /* ZJContentScrollView.m */,
+				181A3A6B204635FA00AD9208 /* ZJContentTableView.h */,
+				181A3A6C204635FA00AD9208 /* ZJContentTableView.m */,
+				181A3A6E2046373500AD9208 /* ZJPersonalHomePageTitleView.h */,
+				181A3A6F2046373500AD9208 /* ZJPersonalHomePageTitleView.m */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		AC73CA5E222AAC5EE3AEF2C8 /* Pods */ = {
@@ -229,6 +262,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				181A49F920456127004C8D72 /* ZJViewController.m in Sources */,
+				181A3A6D204635FA00AD9208 /* ZJContentTableView.m in Sources */,
+				181A4A002045647E004C8D72 /* ZJContentScrollView.m in Sources */,
+				181A3A702046373500AD9208 /* ZJPersonalHomePageTitleView.m in Sources */,
+				181A3A732046379600AD9208 /* UIViewExt.m in Sources */,
+				181A49FD20456308004C8D72 /* ZJPersonalHomePageHeaderView.m in Sources */,
 				181A49AA2045505E004C8D72 /* ViewController.m in Sources */,
 				181A49B52045505E004C8D72 /* main.m in Sources */,
 				181A49A72045505E004C8D72 /* AppDelegate.m in Sources */,
